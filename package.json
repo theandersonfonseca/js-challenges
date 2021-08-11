@@ -1,0 +1,14 @@
+{
+  "name": "js-challenges",
+  "version": "1.0.0",
+  "description": "JS Challenges",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "yarn test --watch"
+  },
+  "author": "Anderson Fonseca",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
