@@ -13,6 +13,7 @@
 */
 
 module.exports = {
+  // First solution
   anagram(s1, s2) {
     if (!s1 || !s2 || s1.length !== s2.length) return false;
 
@@ -31,6 +32,7 @@ module.exports = {
     return true;
   },
 
+  // Second solution
   anagram2(s1, s2) {
     if (!s1 || !s2 || s1.length !== s2.length) return false;
 
