@@ -1,6 +1,6 @@
 const methods = require('./index');
 
-describe('palindrome', () => {
+describe('Palindrome', () => {
   it('Should return true if string is a palindrome', () => {
     expect(methods.palindrome('Level')).toBe(true);
     expect(methods.palindrome('Dog')).toBe(false);
