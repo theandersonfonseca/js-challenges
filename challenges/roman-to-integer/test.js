@@ -1,4 +1,4 @@
-const romanToInteger = require('./index');
+const { romanToInteger } = require('./index');
 
 describe('romanToInteger', () => {
   it('Given a roman numeral, convert it to an integer', () => {

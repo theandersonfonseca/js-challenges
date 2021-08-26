@@ -12,17 +12,17 @@
   Output: 2021
 */
 
-symbols = {
-  I: 1,
-  V: 5,
-  X: 10,
-  L: 50,
-  C: 100,
-  D: 500,
-  M: 1000,
-};
+function romanToInteger(s) {
+  symbols = {
+    I: 1,
+    V: 5,
+    X: 10,
+    L: 50,
+    C: 100,
+    D: 500,
+    M: 1000,
+  };
 
-module.exports = function romanToInteger(s) {
   let integer = 0;
 
   for (let i = 0; i < s.length; i++) {
@@ -33,4 +33,8 @@ module.exports = function romanToInteger(s) {
   }
 
   return integer;
+}
+
+module.exports = {
+  romanToInteger,
 };
