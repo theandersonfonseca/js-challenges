@@ -1,17 +1,3 @@
-/**
-  Input: s = "III"
-  Output: 3
-
-  Input: s = "IV"
-  Output: 4
-
-  Input: s = "XLIX"
-  Output: 49
-
-  Input: s = "MMXXI"
-  Output: 2021
-*/
-
 function romanToInteger(s) {
   symbols = {
     I: 1,

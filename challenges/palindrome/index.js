@@ -1,17 +1,3 @@
-/*
-  Input: s = "Level"
-  Output: true
-
-  Input: s = "Dog"
-  Output: false
-
-  Input: s = "Racecar"
-  Output: true
-
-  Input: s = "Table"
-  Output: false
-*/
-
 function palindrome(s) {
   const len = Math.floor(s.length / 2);
 
